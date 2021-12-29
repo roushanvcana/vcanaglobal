@@ -5511,6 +5511,8 @@ select {
 	color: #ffffff;
 }
 .portfolio-item-img {
+	background: #fff;
+	padding: 15px;
 	box-shadow: 0 0 13px #000;
 	-webkit-transition: all 200ms ease-in;
 	-webkit-transform: scale(1);
