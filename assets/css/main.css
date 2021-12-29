@@ -1290,8 +1290,8 @@ select {
 	background: #8500d1;
 }
 .grb-btn.st-3 {
-	background: #df5735;
-	color: #040021;
+    background: #2845bf;
+    color: #ffffff;
 }
 .grb-btn:hover {
 	background: #6639ff !important;
@@ -4591,16 +4591,21 @@ select {
 	color: #6639ff;
 	background: #f1f4fe;
 }
+.service-box-content {
+    height: 50vh;
+}
 .service-box-content-text h4 {
+	font-size: 16px;
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 .service-box-content-text p {
+	text-align: justify;
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
 	-ms-transition: all 0.3s ease-out 0s;
@@ -7895,11 +7900,12 @@ select {
 *************************
 */
 .hire-area {
-	padding-top: 185px;
-	padding-bottom: 185px;
-	position: relative;
-	background-repeat: no-repeat;
-	background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
@@ -7915,7 +7921,7 @@ select {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #01001e;
+	background: #000;
 	opacity: 0.75;
 }
 .hire-area.pd-hire-area {
@@ -8249,24 +8255,25 @@ select {
 *************************
 */
 .grb-accordion .accordion-button.collapsed::after {
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§";
-	font-family: "Font Awesome 5 Pro";
-	font-size: 16px;
-	color: #6639ff;
-	background-image: none;
-	width: auto;
-	height: auto;
-	font-weight: 400;
+	content: "";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 16px;
+    color: #6639ff;
+    background-image: none;
+    width: auto;
+    height: auto;
+    font-weight: 400;
+	
 }
 .grb-accordion .accordion-button::after {
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨";
-	font-family: "Font Awesome 5 Pro";
-	font-size: 16px;
-	color: #6639ff;
-	background-image: none;
-	width: auto;
-	height: auto;
-	font-weight: 400;
+	content: "";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 16px;
+    color: #6639ff;
+    background-image: none;
+    width: auto;
+    height: auto;
+    font-weight: 400;
 }
 .grb-accordion .accordion-item {
 	background-color: #fff;
