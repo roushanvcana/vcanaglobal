@@ -3953,4 +3953,11 @@ footer .widget > form input:-moz-placeholder {
 .service-wrap > ul li:before, .service-wrap > ul li:after {
 	display: none;
 }
+	.about-1-cont-text ul {
+    column-count: 1;
+    padding: 20px 0 0;
+}
+	.service-box-content {
+    height: auto;
+}
 }
