@@ -2031,6 +2031,10 @@ select {
     padding: 10px 15px;
     border-bottom: 1px solid #039;
 }
+.main-menu ul li .sub-menu li:last-child {
+    border-bottom: medium none;
+    padding: 10px 15px 0;
+}
 .main-menu ul li .sub-menu li a {
 	padding: 0px;
 	display: block;
