@@ -3943,6 +3943,7 @@ footer .widget > form input:-moz-placeholder {
 	.service-box-content {
     height: 60vh;
 }
+	
 }
 @media (max-width:767px) {
 .service-wrap > ul li {
