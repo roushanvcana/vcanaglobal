@@ -3610,6 +3610,13 @@ transform:rotate(360deg)
 }
 }
 @media (max-width: 1400px) {
+	.about-box2 .help-details2 {
+		width: 330px;
+	}
+	.post-style3.rev::before {
+		left: auto;
+		right: -67px;
+	}
 .experince-sec .image-column .image-box {
 	position: relative;
 	margin-left: -70px;
