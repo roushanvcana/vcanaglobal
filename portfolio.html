@@ -372,49 +372,43 @@
 <!-- JS here --> 
 <script src="assets/js/bootstrap.bundle.min.js"></script> 
 <script src="assets/js/swiper-bundle.js"></script> 
-<script src="assets/js/isotope.pkgd.min.js"></script> 
 <script src="assets/js/jquery.meanmenu.min.js"></script> 
-<!--<script src="assets/js/ajax-form.js"></script> --> 
-<script src="assets/js/wow.min.js"></script> 
-<!--<script>
-        new WOW().init();
 
-    </script>--> 
+<script src="assets/js/wow.min.js"></script> 
 <script src="assets/js/jquery.scrollUp.min.js"></script> 
-<script src="assets/js/odometer.min.js"></script> 
-<!--<script src="assets/js/appair.min.js"></script> 
+<!--<script src="assets/js/odometer.min.js"></script> 
+<script src="assets/js/appair.min.js"></script> 
 <script src="assets/js/imagesloaded.pkgd.min.js"></script> 
-<script src="assets/js/jquery.magnific-popup.min.js"></script> 
-<script src="assets/js/plugins.js"></script> --> 
+<script src="assets/js/jquery.magnific-popup.min.js"></script> -->
+<script src="assets/js/plugins.js"></script> 
 <script src="assets/js/main.js"></script> 
-<script>
-	$(document).ready(function() {
-			  $('.nav-tabs > li > a').click(function(event) {
-			    event.preventDefault(); //stop browser to take action for clicked anchor
-			    //get displaying tab content jQuery selector
-			    var active_tab_selector = $('.nav-tabs > li.active > a').attr('href');
-			    //find actived navigation and remove 'active' css
-			    var actived_nav = $('.nav-tabs > li.active');
-			    actived_nav.removeClass('active');
-			    //add 'active' css into clicked navigation
-			    $(this).parents('li').addClass('active');
-			    //hide displaying tab content
-			    $(active_tab_selector).removeClass('active');
-			    $(active_tab_selector).addClass('hide');
-			    //show target tab content
-			    var target_tab_selector = $(this).attr('href');
-			    $(target_tab_selector).removeClass('hide');
-			    $(target_tab_selector).addClass('active');
-			  });
-			});
-	</script> 
-<script>
-	$('.test, .contact').click(function() {
-    var sectionTo = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: $(sectionTo).offset().top
-    }, 1500);
-});
-	</script>
+<!--<script>
+	
+  $('.service-wrap ul li').each(function () {
+    $(".service-box-wrap").on('mouseenter', function () {
+      $(this).parent().parent().find(".service-box-wrap").removeClass("hover");
+      $(this).addClass("hover");
+    });
+  });
+	</script>--> 
+<!--<script>
+	(function($) {
+	'use strict';
+	
+	jQuery(document).on('ready', function(){
+	
+			$('a.page-scroll').on('click', function(e){
+				var anchor = $(this);
+				$('html, body').stop().animate({
+					scrollTop: $(anchor.attr('href')).offset().top - 50
+				}, 1500);
+				e.preventDefault();
+			});		
+
+	}); 	
+
+				
+})(jQuery);
+	</script>-->
 </body>
 </html>
