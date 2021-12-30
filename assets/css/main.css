@@ -7416,7 +7416,7 @@ select {
 }
 .bs-category-list li p:before {
 	position: absolute;
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦";
+	content: "";
 	font-family: "Font Awesome 5 Pro";
 	font-size: 16px;
 	color: #6639ff;
