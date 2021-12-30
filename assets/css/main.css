@@ -1290,8 +1290,8 @@ select {
 	background: #8500d1;
 }
 .grb-btn.st-3 {
-	background: #df5735;
-	color: #040021;
+    background: #2845bf;
+    color: #ffffff;
 }
 .grb-btn:hover {
 	background: #6639ff !important;
@@ -2019,22 +2019,24 @@ select {
 	top: 119%;
 	transition: all 0.3s ease 0s;
 	visibility: hidden;
-	width: 240px;
+	width: 300px;
 	z-index: 9;
 	border-top: 4px solid #df5735;
 	text-align: left;
 	padding: 15px 0;
 }
 .main-menu ul li .sub-menu li {
-	display: block;
-	margin: 0px;
-	padding: 8px 25px 8px 25px;
+    display: block;
+    margin: 0px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #039;
 }
 .main-menu ul li .sub-menu li a {
 	padding: 0px;
 	display: block;
 	color: #212237;
 	position: relative;
+	font-size: 16px;
 }
 .main-menu ul li .sub-menu li a:before {
 	content: "";
@@ -2076,7 +2078,7 @@ select {
 }
 .main-menu ul li.menu-item-has-children:after {
 	position: absolute;
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§";
+	content: "";
 	font-size: 12px;
 	color: #ffffff;
 	top: 50%;
@@ -4591,16 +4593,21 @@ select {
 	color: #6639ff;
 	background: #f1f4fe;
 }
+.service-box-content {
+    height: 50vh;
+}
 .service-box-content-text h4 {
+	font-size: 16px;
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 .service-box-content-text p {
+	text-align: justify;
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
 	-ms-transition: all 0.3s ease-out 0s;
@@ -5506,6 +5513,8 @@ select {
 	color: #ffffff;
 }
 .portfolio-item-img {
+	background: #fff;
+	padding: 15px;
 	box-shadow: 0 0 13px #000;
 	-webkit-transition: all 200ms ease-in;
 	-webkit-transform: scale(1);
@@ -7045,7 +7054,7 @@ select {
 .blog-date {
 	width: 70px;
 	height: 85px;
-	background: #df5735;
+	background: #d4e2fd;
 	border-radius: 0 10px 0 10px;
 	text-align: center;
 	padding: 12px 0;
@@ -7407,7 +7416,7 @@ select {
 }
 .bs-category-list li p:before {
 	position: absolute;
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦";
+	content: "";
 	font-family: "Font Awesome 5 Pro";
 	font-size: 16px;
 	color: #6639ff;
@@ -7895,11 +7904,12 @@ select {
 *************************
 */
 .hire-area {
-	padding-top: 185px;
-	padding-bottom: 185px;
-	position: relative;
-	background-repeat: no-repeat;
-	background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
@@ -7915,7 +7925,7 @@ select {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #01001e;
+	background: #000;
 	opacity: 0.75;
 }
 .hire-area.pd-hire-area {
@@ -8249,24 +8259,25 @@ select {
 *************************
 */
 .grb-accordion .accordion-button.collapsed::after {
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§";
-	font-family: "Font Awesome 5 Pro";
-	font-size: 16px;
-	color: #6639ff;
-	background-image: none;
-	width: auto;
-	height: auto;
-	font-weight: 400;
+	content: "";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 16px;
+    color: #6639ff;
+    background-image: none;
+    width: auto;
+    height: auto;
+    font-weight: 400;
+	
 }
 .grb-accordion .accordion-button::after {
-	content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨";
-	font-family: "Font Awesome 5 Pro";
-	font-size: 16px;
-	color: #6639ff;
-	background-image: none;
-	width: auto;
-	height: auto;
-	font-weight: 400;
+	content: "";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 16px;
+    color: #6639ff;
+    background-image: none;
+    width: auto;
+    height: auto;
+    font-weight: 400;
 }
 .grb-accordion .accordion-item {
 	background-color: #fff;
