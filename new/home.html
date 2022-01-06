@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Vcana Global</title>
+</head>
+<body>
+    
+     <!-- <header>
+        <div class="responsive-bar">
+            <div class="logo">
+                <img src="./assets/images/logo/logo.gif" alt="logo"/>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <nav>
+                <div class="logo">
+                <img src="./assets/images/logo/logo.gif" alt="logo"/>
+                </div>
+             <ul>
+                <li><a class="active-color" href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Our Services</a></li>
+                 <li><a href="#">Portfolio</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    </header>  -->
+
+    <section class="sec1">
+        <div class="subheader normal-bg section-padding">
+            <div class="overlay overlay-bg-theme">
+         <header>
+        <div class="responsive-bar">
+            <div class="logo">
+                <img src="./assets/images/logo/logo.gif" alt="logo"/>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <nav>
+                <div class="logo">
+                <img src="./assets/images/logo/logo.gif" alt="logo"/>
+                </div>
+             <ul>
+                <li><a class="active-color" href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Our Services</a></li>
+                 <li><a href="#">Portfolio</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+         </header> 
+
+         <div class="container">
+            <div class="row">
+            <div class="col-12">
+            <div class="breadcrumb-text">
+              <h5>Customised tech service</h5>
+              <h1>Innovative <br>
+                Future of Digital<br>
+                 World</h1>
+
+           <p>Nulla quis feugiat mi. Mauris tincidunt dui massa, 
+            non feugiat ex blandit vel.<br> Nam lacinia dapibus nisi, ac convallis est tempor ac. </p>
+            
+            <div class="text-form">
+                <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Address">
+                    </div>
+                    </form>
+                    <div class="form-button">
+                        <button type="button" class="btn btn-primary">Sign Up</button>
+                    </div>
+            </div>
+          
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+           
+
+            </div>
+    </section>
+
+   
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <h1>Heading</h1>
+            </div>
+        </div>
+     </section>
+    
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script type="text/javascript">
+
+        $('.sec1').mousemove(function(a) {
+            var mouseX = (a.pageX*-1/15);
+            var mouseY = (a.pageY*-1/15);
+            $(this).css('background-position', mouseX+'px ' +mouseY+'px');
+             $(this).css('transition', 0.5);
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+  /*menu button onclick function*/ 
+        $(document).ready(function(){
+                $('.menu .fa-bars').click(function(){
+                    $("nav ul").toggleClass("active")
+            })
+            })
+        </script>
+</body>
+</html>
