@@ -5,6 +5,9 @@ body{
 	padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
+/* herader */
+
 .responsive-bar{
     display: none;
 }
@@ -20,7 +23,8 @@ nav{
 }
 nav.black{
     background: #d4e2fd;
-    height: 80px;
+    height: auto;
+    width: 100%;
     padding: 10px 50px;
 }
 nav .logo{
@@ -72,9 +76,12 @@ nav.black > ul > li > a{
     line-height: 60px;
 }
 
-section.sec1{
+/* herader */
+
+.sec1{
     width: 100%;
     height: 100vh;
+    position: relative;
     background-color: #040E56;
     background-image: url(../images/home/asdad.png);
     background-position: center center;
@@ -85,35 +92,35 @@ section.sec1{
     background-size: cover; */
 }
 
-.sec1 .subheader .container .row .breadcrumb-text h5{
+.sec1 .container .row .breadcrumb-text h5{
     color: #f35b35;
     padding: 10rem 0 0 0;
 }
 
-.sec1 .subheader .container .row .breadcrumb-text h1{
+.sec1 .container .row .breadcrumb-text h1{
     color: #f7f6f5;
     font-size: 65px;
     font-weight: bold;
 }
 
-.sec1 .subheader .container .row .breadcrumb-text p{
+.sec1 .container .row .breadcrumb-text p{
     color: #ebebeb;
     margin: 0 0 28px 0;
 }
 
-.sec1 .subheader .container .row .breadcrumb-text .text-form{
+.sec1 .container .row .breadcrumb-text .text-form{
     display: flex;
 }
 
-.sec1 .subheader .container .row .breadcrumb-text .text-form .form-group{
+.sec1 .container .row .breadcrumb-text .text-form .form-group{
         margin: 0 20px 0 0;
 }
 
-.sec1 .subheader .container .row .breadcrumb-text .text-form .form-group #exampleFormControlInput1{
+.sec1 .container .row .breadcrumb-text .text-form .form-group #exampleFormControlInput1{
    width: 400px;
 }
 
-.sec1 .subheader .container .row .breadcrumb-text .text-form .form-button button:hover{
+.sec1 .container .row .breadcrumb-text .text-form .form-button button:hover{
     background: #d97056;
         color: #003399;
 }
@@ -292,7 +299,7 @@ section.sec2{
 
 }
 
-.overlay {
+.overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -307,15 +314,247 @@ section.sec2{
     background-size: cover;
     opacity: 1;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    -moz-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    -ms-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    -o-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
+
+/* about-section */
 
 
 .about-section{
     margin: 50px 0 50px 0;
     width: 100%;
     height: 90vh;
-    background-image: url(../images/home/why-us-fullwidth-bg.jpg);
+    position: relative;
+    background-image: url(../images/home/diverse-businesspeople-having-meeting.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.over-lay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+ .about-section .about-theme{
+    background-color: #380f05;
+    opacity: 0.7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+} 
+
+.about-section .container .row .card-title{
+    color: #181823;
+    font-size: 34px;
+    line-height: 35px;
+    margin: 0 0 30px 0;
+}
+
+.about-section .container .row .card{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 50px 46px 0px 46px;
+    box-shadow: 10px -10px 15px -10px grey;
+    width: 33.5%;
+    border-radius: 0px 0px 50px 0px;
+    -webkit-border-radius: 0px 0px 50px 0px;
+    -moz-border-radius: 0px 0px 50px 0px;
+    -ms-border-radius: 0px 0px 50px 0px;
+    -o-border-radius: 0px 0px 50px 0px;
+}
+
+.about-section .container .row .side-card{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    box-shadow: 10px -10px 15px -10px grey;
+    width: 33.5%;
+    margin: 30px 0px 0 0;
+    float: right;
+    background: #2c3783;
+    border-radius: 50px 0px 0px 0px;
+    -webkit-border-radius: 50px 0px 0px 0px;
+    -moz-border-radius: 50px 0px 0px 0px;
+    -ms-border-radius: 50px 0px 0px 0px;
+    -o-border-radius: 50px 0px 0px 0px;
+}
+
+.about-section .container .row .side-card h5{
+    color: #FFFFFF;
+}
+
+.about-section .container .row .side-card p{
+    color: #FFFFFF;
+}
+
+
+.about-section .container .row .side-right{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    box-shadow: 10px -10px 15px -10px grey;
+    margin: 30px 30px 0 0;
+    padding: 20px;
+    width: 33.5%;
+    background: #bb3c1c;
+    float: right;
+    border-radius: 50px 0px 0px 0px;
+    -webkit-border-radius: 50px 0px 0px 0px;
+    -moz-border-radius: 50px 0px 0px 0px;
+    -ms-border-radius: 50px 0px 0px 0px;
+    -o-border-radius: 50px 0px 0px 0px;
+}
+
+.about-section .container .row .side-right h5{
+    color: #FFFFFF;
+}
+
+.about-section .container .row .side-right p{
+    color: #FFFFFF;
+}
+
+.about-section .container .row p{
+    font-size: 18px;
+    color: #181823;
+    line-height: 35px;
+    margin: 0 0 30px 0;
+}
+
+.about-section .container .row .card .card-body {
+    margin: 0 0 20px 0;
+}
+
+.about-section .container .row .card .card-body .form-button button{
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 20%);
+     padding: 10px 38px 10px 38px; 
+    font-size: 20px;
+    background-color: #040e56;
+    border-color: #040e56;
+}
+
+.about-section .container .row .card .card-body .form-button button:hover{
+    background: #c2320e;
+        color: #070707;
+}
+
+/* about-section */
+
+
+/* tab-section */
+
+.service-section{
+    padding: 100px 50px 100px 50px;
+}
+
+.service-section .container .row .service-heading{
+    padding: 40px;
+}
+
+.service-section .container .row .service-heading .form-button button{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    background-color: #bb3c1c;
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 32px 18px 32px;
+    border-color: #bb3c1c;
+}
+
+.service-section .container .row .service-heading .form-button button:hover{
+    background: #2c3783;
+        color: #c2320e;
+}
+
+.service-section .container .row .service-heading h5{
+    color: #bb3c1c;
+}
+
+.service-section .container .row .service-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.service-image .container .row .card .card-body img{
+    width: 25%;
+    height: auto;
+}
+/* .service-section .container .row .service-heading h1{
+    text-align: center;
+    margin: 50px 0 50px 0;
+} */
+
+/* .service-section .container .row .tab-section .tabs{
+    margin: 0px 0 20px 0;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+} */
+
+/* .service-section .container .row .tab-section .tab-content .tab-image img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* .service-section .container .row .tab-section .tab-content h1{
+    margin: 0 0 25px 0;
+} */
+
+/* .service-section .container .row .tab-section .tab-content p{
+    margin: 0 0 30px 0;
+} */
+
+/* .service-section .container .row .tab-section .tab-content .form-button button{
+    background: #040e56;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+} */
+
+
+/* .service-section .container .row .tab-section .tab-content .form-button button:hover{
+    background: #c2320e;
+    color: #070707;
+} */
+
+/* .service-section .container .row .tab-section ul.tabs li{
+    background: none;
+    color: rgb(245, 241, 241);
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 1px solid #bb3c1c;
+    border-style: solid;
+    margin: 0 -2px;
+    background: #2c3783;
+    border-radius: 0 10px 0 10px;
+    -webkit-border-radius: 0 10px 0 10px;
+    -moz-border-radius: 0 10px 0 10px;
+    -ms-border-radius: 0 10px 0 10px;
+    -o-border-radius: 0 10px 0 10px;
+} */
+
+/* .service-section .container .row .tab-section ul.tabs li.current{
+    background: #bb3c1c;
+    color: rgb(248, 245, 245);
+} */
+
+/* .service-section .container .row .tab-section ul.tabs li .fa-sketch, .fa-cart-arrow-down, .fa-mobile-alt, .fa-chart-line{
+    margin: 0 5px 0 0;
+} */
+
+/* .service-section .container .row .tab-section .tab-content{
+    display: none;
+     background: #ededed; 
+    padding: 50px;
+    margin: 54px 0 0;
+} */
+
+/* .service-section .container .row .tab-section .tab-content.current{
+    display: inherit;
+} */
+
+
+
+  /* tab-section */
