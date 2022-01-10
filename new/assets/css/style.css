@@ -81,13 +81,13 @@ nav.black > ul > li > a{
 .sec1{
     width: 100%;
     height: 100vh;
-    position: relative;
-    background-color: #040E56;
+     position: relative; 
+    background-color: #2c3783;
     background-image: url(../images/home/asdad.png);
-    background-position: center center;
+    background-position:center center;
     background-size: 105%;
     background-repeat: no-repeat;
-    overflow: hidden;
+     overflow: hidden;
     /* background: url(https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover; */
 }
@@ -106,6 +106,7 @@ nav.black > ul > li > a{
 .sec1 .container .row .breadcrumb-text p{
     color: #ebebeb;
     margin: 0 0 28px 0;
+    text-align: left;
 }
 
 .sec1 .container .row .breadcrumb-text .text-form{
@@ -419,6 +420,7 @@ section.sec2{
     color: #181823;
     line-height: 35px;
     margin: 0 0 30px 0;
+    text-align: left;
 }
 
 .about-section .container .row .card .card-body {
@@ -445,7 +447,8 @@ section.sec2{
 /* tab-section */
 
 .service-section{
-    padding: 100px 50px 100px 50px;
+    padding: 130px 50px 100px 50px;
+    position: relative;
 }
 
 .service-section .container .row .service-heading{
@@ -477,10 +480,207 @@ section.sec2{
     height: 100%;
 }
 
-.service-image .container .row .card .card-body img{
-    width: 25%;
-    height: auto;
+.service-section .container .row .service-card .card{
+    background-color: #FFFFFF;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
+    border-radius: 0px 0px 0px 0px;
+    margin: 0 0 40px 0;
+    height: 100%;
+    width: 100%;
 }
+
+.service-section  .service-card .card.back-img{
+    background-image: url(../images/home/17266.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    /* position: relative; */
+}
+
+.service-section .container .row .service-card .card .over-hover {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background: #f5a28d; */
+    opacity: 0.2;
+   background-color: #2c3783; 
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .service-section .container .row .service-card .card:hover .over-hover{
+    bottom: 0;
+    height: 100%;
+  }
+
+/* .service-section .container .row .service-card .card.back-img .back-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    background-color: #000000;
+    opacity: 0.49;
+} */
+
+.service-section .container .row .service-card .card.back-img .form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 0 0 0;
+    /* position: relative; */
+}
+
+.service-section .container .row .service-card .card.back-img .form-button .circle-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    /* color: white; */
+    text-align: center;
+    /* line-height: 100px; */
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+
+.service-section .container .row .service-card .card.back-img .form-button .circle-1:hover {
+    cursor: pointer;
+}
+.service-section .container .row .service-card .card.back-img .form-button .circle-1::after,
+.circle-1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-animation: grow 3s ease-in-out infinite;
+    animation: grow 3s ease-in-out infinite;
+}
+
+.service-section .container .row .service-card .card.back-img .form-button .circle-1::after {
+     background: #FFFFFF; 
+
+     /* background: rgb(59, 225, 164);  */
+}
+
+.service-section .container .row .service-card .card.back-img .form-button .circle-1::after::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-animation: grow 3s ease-in-out infinite;
+    animation: grow 3s ease-in-out infinite;
+}
+
+.service-section .container .row .service-card .card.back-img .form-button .circle-1::before {
+    background: #FFFFFF;
+    /* background: rgb(59, 225, 164); */
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+@-webkit-keyframes grow {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.8, 1.8);
+        transform: scale(1.8, 1.8);
+        opacity: 0;
+    }
+}
+@keyframes grow {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.8, 1.8);
+        transform: scale(1.8, 1.8);
+        opacity: 0;
+    }
+}
+
+
+
+.service-section .container .row .service-card .card.back-img .form-button button i{
+    color: #c2320e;
+    font-size: 20px;
+}
+
+.service-section .container .row .service-card .card.back-img .form-button button{
+    height: 60px;
+    width: 60px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.service-section .container .row .service-card .card.back-img .form-button button:hover{
+    background: #c2320e;
+}
+
+.service-section .container .row .service-card .card.back-img .form-button button i:hover{
+    color: #FFFFFF;
+}
+
+
+.service-section .container .row .service-card .card .card-img-top{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-section .container .row .service-card .card .card-body{
+    text-align: center;
+}
+
+.service-section .container .row .service-card .card .card-body .form-button button{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    background-color: #2c3783;
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 28px 18px 28px;
+    border-color: #2c3783;
+}
+
+.service-section .container .row .service-card .card .card-body .form-button button:hover{
+    background: #c2320e;
+    color: #000;
+}
+
 /* .service-section .container .row .service-heading h1{
     text-align: center;
     margin: 50px 0 50px 0;
@@ -557,4 +757,199 @@ section.sec2{
 
 
 
-  /* tab-section */
+  /* client-section */
+
+  .client-section{
+      padding: 100px 50px 100px 50px;
+    background-color: #2c3783;
+    background-image: url(../images/home/overlay.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  .client-section .side-over{
+    background-image: url(../images/home/overlay-left.png);
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute
+
+  }
+
+  .client-section .container .row .client-heading .client-text h5{
+    color: #c2320e;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+  }
+
+  .client-section .container .row .client-heading .client-text h1{
+    color: #f7f5f4;
+  }
+
+  .client-section .container .row .client-heading .client-slider .owl-carousel .item .item-img{
+      display: flex;
+      padding: 25px 0 0 0;
+  }
+
+  .client-section .container .row .client-heading .client-slider .owl-carousel .item .item-img img{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      margin: 0 30px 0 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+
+.client-section .container .row .client-heading .client-slider .owl-carousel .item .item-img .item-arrow .fa-quote-right{
+    margin: 0 0px 0 85px;
+    padding: 12px 0 0 0;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.client-section .container .row .client-heading .client-slider .owl-carousel .item {
+    padding: 25px 20px 10px 20px;
+    margin: 0 50px 0 0;
+    border-radius: 10px;
+    background: #054099;
+    box-shadow: 0 10px 10px 10px #054099;
+}
+
+.client-section .container .row .client-heading .client-slider .owl-carousel .item .item-text p{
+   color: #FFFFFF;
+   font-size: 18px;
+}
+  
+.client-section .container .row .client-heading .client-slider .owl-carousel .item .item-img .side-text h3{
+  color: #FFFFFF;
+}
+
+.client-section .container .row .client-heading .client-slider .owl-carousel .item .item-img .side-text p{
+    color: #FFFFFF;
+  }
+
+  .client-section .container .row .client-heading .client-slider .last-section{
+    margin: 50px 0 0 0;
+}
+
+.client-section .container .row .client-heading .client-slider .last-section p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.client-section .container .row .client-image {
+    margin: 100px 0 0 0;
+}
+
+.client-section .container .row #size-image {
+    background: #054099;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px #4856b1
+}
+
+.client-section .container .row .right-txt p, h4, h5{
+  color: #FFFFFF;
+}
+
+.client-section .container .row .client-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+   /* client-section */
+
+
+   /* contact-section */
+  
+   .contact-section{
+       padding: 200px 100px 200px 100px;
+       background-image: url(../images/home/aerial-view-business-team.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       position: relative;
+   }
+
+   .contact-section .contact-overlay{
+    background-color: #000000;
+    opacity: 0.7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+   }
+
+   .contact-section .container .row .contact-text {
+    margin: 70px 0 0px 0;
+}
+
+   .contact-section .container .row .contact-text h1{
+       font-size: 50px;
+       margin: 0 0 20px 0;
+   }
+
+   .contact-section .container .row .contact-text h1{
+       color: #FFFFFF;
+       text-align: center;
+   }
+
+   .contact-section .container .row .contact-text p{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+   .contact-form{
+       margin: -100px 0 100px 0;
+   }
+
+
+   .contact-form .container .row .first-text .card{
+    box-shadow: inset 0 0 0 100vw #501000e0;
+   background: url(../images/home/business-people-working-together.jpg) center center;
+   background-size: cover;
+   color: white;
+   border: none;
+   padding: 30px;
+   border-radius: 0;
+   transition: box-shadow .3s ease-out;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+}
+
+   /* .contact-form .container .row .first-text .card .img-overlay{
+    background-color: #0a0200;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+   } */
+
+   /* contact-section */
+
+
+  
