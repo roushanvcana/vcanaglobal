@@ -70,7 +70,7 @@
     <div class="col-xl-2 col-lg-3 col-8">
      <div class="logo">
       <div class="logo-bg-1"> <img src="assets/img/shape/logo-bg-1.png" alt=""> </div>
-      <a class="logo-text-white" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a> <a class="logo-text-black" href="index.html"><img src="assets/img/logo/logo.png"
+      <a class="logo-text-white" href="index.html"><img src="assets/img/logo/logo.gif" alt=""></a> <a class="logo-text-black" href="index.html"><img src="assets/img/logo/logo.gif"
                                     alt=""></a> </div>
     </div>
     <div class="col-xl-10 col-lg-9 col-4">
@@ -92,7 +92,7 @@
           </ul>
          </li>
          <li><a href="portfolio.html" class="active">Portfolio</a> </li>
-         <li><a href="#" class="blog">Blog</a> </li>
+         <li><a href="blog.html" class="blog">Blog</a> </li>
          <li><a href="contact.html" class="">Contact</a></li>
         </ul>
        </nav>
@@ -116,7 +116,7 @@
   <div class="side-info-content">
    <div class="offset-widget offset-logo mb-30 pb-20">
     <div class="row align-items-center">
-     <div class="col-9"><a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a> </div>
+     <div class="col-9"><a href="index.html"><img src="assets/img/logo/logo.gif" alt="Logo"></a> </div>
      <div class="col-3 text-end">
       <button class="side-info-close"><i
                                     class="fal fa-times"></i></button>
@@ -206,9 +206,9 @@
   </div>
   <div class="row wow fadeInUp">
    <div class="button-group portfolio-button">
-    <button class="active" data-filter="*">All</button>
-    <button data-filter=".c-1">Web Site</button>
-    <button data-filter=".c-2">Logo</button>
+    <button class="active btn-style-one" data-filter="*"><span class="txt">All</span></button>
+    <button class="btn-style-one" data-filter=".c-1"><span class="txt">Web Site</span></button>
+    <button class="btn-style-one" data-filter=".c-2"><span class="txt">Logo</span></button>
    </div>
   </div>
   <div class="row wow fadeInUp grid">
@@ -336,10 +336,10 @@
      <ul>
       <li><a href="index.html" title="Home">Home</a></li>
       <li><a href="about.html" title="About">About</a></li>
-      <li><a href="digital-marketing.html" title="Digital Marketing">Digital Marketing</a></li>
+      <li><a href="service.html" title="Our Service">Our Service</a></li>
       <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
-      <li><a href="blog.html" class="blog">Blog</a> </li>
-      <li><a href="e-commerce-development.html" title="E-commerce Development">E-commerce Development</a></li>
+      <li><a href="blog.html" title="Blog">Blog</a></li>
+      <li><a href="contact.html" title="contact">Contact</a></li>
      </ul>
     </div>
    </div>
@@ -374,47 +374,36 @@
 <script src="assets/js/swiper-bundle.js"></script> 
 <script src="assets/js/isotope.pkgd.min.js"></script> 
 <script src="assets/js/jquery.meanmenu.min.js"></script> 
-<!--<script src="assets/js/ajax-form.js"></script> --> 
 <script src="assets/js/wow.min.js"></script> 
-<!--<script>
-        new WOW().init();
-
-    </script>--> 
 <script src="assets/js/jquery.scrollUp.min.js"></script> 
-<script src="assets/js/odometer.min.js"></script> 
-<!--<script src="assets/js/appair.min.js"></script> 
-<script src="assets/js/imagesloaded.pkgd.min.js"></script> 
-<script src="assets/js/jquery.magnific-popup.min.js"></script> 
-<script src="assets/js/plugins.js"></script> --> 
-<script src="assets/js/main.js"></script> 
-<script>
-	$(document).ready(function() {
-			  $('.nav-tabs > li > a').click(function(event) {
-			    event.preventDefault(); //stop browser to take action for clicked anchor
-			    //get displaying tab content jQuery selector
-			    var active_tab_selector = $('.nav-tabs > li.active > a').attr('href');
-			    //find actived navigation and remove 'active' css
-			    var actived_nav = $('.nav-tabs > li.active');
-			    actived_nav.removeClass('active');
-			    //add 'active' css into clicked navigation
-			    $(this).parents('li').addClass('active');
-			    //hide displaying tab content
-			    $(active_tab_selector).removeClass('active');
-			    $(active_tab_selector).addClass('hide');
-			    //show target tab content
-			    var target_tab_selector = $(this).attr('href');
-			    $(target_tab_selector).removeClass('hide');
-			    $(target_tab_selector).addClass('active');
-			  });
-			});
-	</script> 
-<script>
-	$('.test, .contact').click(function() {
-    var sectionTo = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: $(sectionTo).offset().top
-    }, 1500);
-});
-	</script>
+<script src="assets/js/main.js"></script>
+<!--<script>
+	
+  $('.service-wrap ul li').each(function () {
+    $(".service-box-wrap").on('mouseenter', function () {
+      $(this).parent().parent().find(".service-box-wrap").removeClass("hover");
+      $(this).addClass("hover");
+    });
+  });
+	</script>--> 
+<!--<script>
+	(function($) {
+	'use strict';
+	
+	jQuery(document).on('ready', function(){
+	
+			$('a.page-scroll').on('click', function(e){
+				var anchor = $(this);
+				$('html, body').stop().animate({
+					scrollTop: $(anchor.attr('href')).offset().top - 50
+				}, 1500);
+				e.preventDefault();
+			});		
+
+	}); 	
+
+				
+})(jQuery);
+	</script>-->
 </body>
 </html>
