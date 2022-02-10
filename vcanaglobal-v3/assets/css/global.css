@@ -1006,6 +1006,7 @@ ul.tabs li:hover {
     font-size: 16px;
     font-weight: 600;
     color: #090d61;
+	text-transform: uppercase;
 }
 .service-preview-content li:before {
 	position: absolute;
@@ -4712,10 +4713,11 @@ transform:rotate(360deg)
 }
 }
 /*counter css */
-section#counter-stats {
-	display: flex;
-	justify-content: center;
-	margin: 100px 0;
+#counter-stats {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background: #e3e8f1;
 }
 .stats {
     text-align: center;

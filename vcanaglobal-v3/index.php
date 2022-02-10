@@ -327,14 +327,14 @@
 									<p>Vcana Global has a well equipped web development lab in place which is run by highly experienced team of designers, developers, testers and project managers. Our team of experts has the knowledge of the latest technologies as per the current industry standards and keep themselves updated about the latest trends. We as a team put focus on our clients requirements and make sure that the project is delivered with the utmost satisfaction.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>HTML5</li>
-										<li>CSS3</li>
-										<li>BOOTSTRAP 3/4</li>
-										<li>JQUERY</li>
-										<li>JAVASCRIPT</li>
-										<li>PHOTOSHOP</li>
-										<li>FIGMA</li>
-										<li>CORELDRAW</li>
+										      
+									<li>UI/UX</li>
+										<li>Wireframes</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>Bootstrap</li>
+										<li>jQuery</li>
+										<li>JS</li>
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -355,11 +355,10 @@
 									<h5>Some of the Technology we used</h5>
 									<ul>
 									<li>WORDPRESS</li>
-										<li>CODEIGNITER</li>
-										<li>SQL</li>
-										<li>SHOPIFY</li>
 										<li>JOOMLA</li>
+										<li>PHP</li>
 										<li>DRUPAL</li>
+										<li>JS Frameworks</li>
 										<li>WIX</li>
 										<li>WEEBLY</li>
 									</ul>
@@ -381,14 +380,11 @@
 									<p>Vcana Global give its customer an edge over others by building unique and perfect e-commerce storefront and set the ball rolling to create their online presence. With our proficiency in the leading e-commerce development platforms, we help businesses to grow their audience and increase sales.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>WORDPRESS</li>
+									<li>SHOPIFY</li>
 										<li>MAGENTO</li>
+										<li>WOO COMMERCE</li>
 										<li>OPEN CART</li>
-										<li>SHOPIFY</li>
-										<li>JOOMLA</li>
-										<li>DRUPAL</li>
-										<li>WIX</li>
-										<li>WEEBLY</li>
+										
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -408,10 +404,13 @@
 									<p>Our Digital Marketing services include a comprehensive consultation to help identify gaps, opportunities and results in a detailed report that includes a project plan with timelines and cost analysis. Our customized plans are made up of quality services that will help you get to your goal quickly and smoothly.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>EMAIL MARKETING</li>
+									<li>SEO</li>
+										<li>SMM</li>
+										<li>PPC</li>
+										<li>Google AdWords</li>
+										<li>FaceBook Ads</li>
 										<li>CONTENT MARKETING</li>
-										<li>LEAD GENERATION (B2B - B2C)</li>
-										<li>SOCIAL MEDIA ADVERTISING</li>
+										<li>Reputation Management</li>
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -431,10 +430,8 @@
 									<p>From idea to the development of application software, Vcana Global covers the mobile application development cycle, regardless of how varied or multifaceted your needs are. Our capacity to address your issues comes from our team of specialists, who have multiple years of involvement with product engineering and global app development ventures. </p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>IPHONE APPS DEVELOPMENT</li>
-										<li>ANDROID APPS DEVELOPMENT</li>
-										<li>WINDOWS APPS DEVELOPMENT</li>
-										<li>PHONEGAP APPS DEVELOPMENT</li>
+										<li>JAVA</li> <li>Swift Objective-C</li> <li>React Native</li> <li>Iconic Cross-Platform</li>
+									
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -454,10 +451,7 @@
 									<p>As a leading custom application development organization with multiple years of involvement in this field, Vcana Global makes exceptionally secure, scalable, and robust applications worldwide. Our bespoke customized application development service is accessible for new businesses, SMEs, and ventures from different industry verticals. Get custom-fitted applications worked by our experienced developers to counter your complicated business challenges effortlessly.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>CUSTOMIZED WEB DEVELOPMENT</li>
-										<li>PROGRESSIVE CUSTOM APPS</li>
-										<li>WEB PORTAL DEVELOPMENT</li>
-										<li>THIRD-PARTY INTEGRATION & CUSTOMIZATION</li>
+										<li>CorePHP</li> <li>Laravel</li> <li>Zend</li> <li>Codeigniter</li> <li>Node.JS</li> <li>Express JS</li> <li>React JS</li> <li>Angular JS</li>
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -479,7 +473,7 @@
                 <div class="counter-icon">
                     <i class="fa fa-laptop-code"></i>
                 </div>
-                <span class="counter-value">500K</span>
+                <span class="counter-value">500</span>
                 <h3>Projects Done</h3>
             </div>
         </div>
