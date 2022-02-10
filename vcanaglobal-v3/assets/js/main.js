@@ -355,7 +355,10 @@
 
 	// WOW active
 	new WOW().init();
-
+// counter code
+	
+	
+  
 	// Active Odometer Counter
 //	jQuery(".odometer").appear(function (e) {
 //		var odo = jQuery(".odometer");

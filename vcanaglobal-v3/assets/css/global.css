@@ -610,6 +610,7 @@ li.current::after {
 .background_overlay {
 	background-image: url("../img/about/about-us-fullwidth-bg.jpg");
 	background-position: center center;
+
 	background-size: cover;
 	opacity: 0.2;
 	transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -800,7 +801,7 @@ ul.tabs li:hover {
 	content: "";
 	position: absolute;
 	bottom: -15px;
-	left: 120px;
+	left: 80px;
 	border-width: 15px 15px 0;
 	border-style: solid;
 	border-color: #6fa3ef transparent;
@@ -824,7 +825,7 @@ ul.tabs li:hover {
 	text-align: center;
 	color: #090d61;
 	background-color: #e5effc;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
 }
 /**/
@@ -846,13 +847,13 @@ ul.tabs li:hover {
 	flex: 1;
 }
 .main-tabs .nav-item:not(:last-child) {
-	margin-right: 30px
+	margin-right: 10px
 }
 .main-tabs .nav-item .nav-link span {
-	margin-bottom: 0;
+	margin-top: 10px;
 }
 .icon-holder img {
-	width: 30%;
+	width: 50%;
 }
 .main-tabs .nav-item .nav-link.active {
 	-webkit-box-shadow: 0 5px 10px 0 rgba(3,27,78,.08);
@@ -986,10 +987,41 @@ ul.tabs li:hover {
 	line-height: 24px;
 	font-weight: 400;
 }
+.service-preview-content h5 {
+    font-size: 25px;
+    color: #ff3300;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+.service-preview-content ul {
+	column-count: 2;
+	padding:10px 0;
+	margin: 0;
+}
+.service-preview-content li {
+    line-height: 26px;
+    padding-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #090d61;
+}
+.service-preview-content li:before {
+	position: absolute;
+    content: '\f560';
+    left: 0;
+    top: 0;
+    font-weight: 400;
+    color: #f58634;
+    font-size: 16px;
+    font-family: "Font Awesome 5 Pro";
+}
 /*Btn Style One*/
 .btn-style-one .txt {
 	position: relative;
 	z-index: 1;
+
 	color: #fff;
 }
 .btn-style-one {
@@ -1320,7 +1352,7 @@ ul.tabs li:hover {
 /*portfolio end here*/
 /*our client section start here*/
 .our_client {
-	background-color: #040e56;
+	background-color:#87aaf0;
 	background-image: url(../img/about/overlay-bg.png);
 	background-position: center center;
 	background-size: cover;
@@ -1370,24 +1402,37 @@ ul.tabs li:hover {
 	font-weight: 700;
 }
 .client_list {
-	border-radius: 0 40px 0 0;
+	text-align: center;
+	/*border-radius: 0 40px 0 0;
 	background: #f56c59;
 	margin: -6em 0em 0em 0em;
 	padding: 2em 2em 2em 2em;
-	background: linear-gradient(0deg, #040e56, #f56c59)
+	background: linear-gradient(0deg, #040e56, #f56c59)*/
+}
+.client_list h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.client_list h2 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+}
+.client_list p {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+	margin-bottom: 35px;
 }
 .customer-logos {
 	padding: 0 0 20px;
 }
-.client_list p {
-	font-family: 'Lato', sans-serif;
-	margin-bottom: 15px;
-	color: #fff;
-	text-align: justify;
-	font-size: 18px;
-	line-height: 26px;
-	font-weight: 400;
-}
+
 /* Slider */
 
 .slick-slide {
@@ -2777,6 +2822,7 @@ section.client-section .side-text h3 {
 }
  @keyframes wheel-up-down {
  0% {
+
  margin-top: 2px;
  opacity: 0;
 }
@@ -4566,6 +4612,32 @@ to {
 transform:rotate(360deg)
 }
 }
+/*counter css */
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin: 100px 0;
+}
+.stats {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #f30;
+    background: #f2f6ff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #a3a3a3;
+}
+.stats h5 {
+	color: #013281;
+    font-size: 26px;
+}
+.stats .fa {
+    color: #013180;
+    font-size: 60px;
+    padding: 0 0 25px;
+}
+
 @media (max-width: 1400px) {
 .about_mission {
 	padding: 30px 20px;

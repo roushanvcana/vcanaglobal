@@ -42,7 +42,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="flexbox">
+		<!--<div class="flexbox">
 		<div class="flex flexbottom wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
 			<h1 class="stepNumber">Understand</h1>
 			<div class="textbox">
@@ -120,7 +120,7 @@
 
 		</div>
 
-	</div>
+	</div>-->
 		<section class="ps-timeline-sec">
 			<div class="container-fluid">
 				<ol class="ps-timeline">
@@ -297,13 +297,17 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="nav-t nav-tabs nav main-tabs tabs">
-						<li class="nav-item tab-link current" data-tab="tab-1"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service1.png" alt=""></span> <span class="hide_txt">Web Design & Development</span></a>
+						<li class="nav-item tab-link current" data-tab="tab-1"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service1.png" alt=""></span> <span class="hide_txt">Web Design</span></a>
 						</li>
-						<li class="nav-item tab-link" data-tab="tab-2"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service2.png" alt=""></span><span class="hide_txt">Digital Marketing</span></a>
+						<li class="nav-item tab-link" data-tab="tab-2"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service1.png" alt=""></span> <span class="hide_txt">Web Development</span></a>
 						</li>
-						<li class="nav-item tab-link" data-tab="tab-3"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service3.png" alt=""></span><span class="hide_txt">Mobile & App Development</span></a>
+						<li class="nav-item tab-link" data-tab="tab-3"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service4.png" alt=""></span><span class="hide_txt">E-commerce Development</span></a>
 						</li>
-						<li class="nav-item tab-link" data-tab="tab-4"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service4.png" alt=""></span><span class="hide_txt">E-commerce Development</span></a>
+						<li class="nav-item tab-link" data-tab="tab-4"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service6.png" alt=""></span><span class="hide_txt">Digital Marketing</span></a>
+						</li>
+						<li class="nav-item tab-link" data-tab="tab-5"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service3.png" alt=""></span><span class="hide_txt">Mobile & App Development</span></a>
+						</li>
+						<li class="nav-item tab-link" data-tab="tab-6"><a class="nav-link"><span class="icon-holder"><img src="assets/img/service/service7.png" alt=""></span><span class="hide_txt">Custom Software Development</span></a>
 						</li>
 					</ul>
 				</div>
@@ -319,8 +323,19 @@
 							</div>
 							<div class="col-lg-7 col-md-6">
 								<div class="service-preview-content">
-									<h4 class="xs-content-title">Web Design & Development</h4>
+									<h4 class="xs-content-title">Web Design</h4>
 									<p>Vcana Global has a well equipped web development lab in place which is run by highly experienced team of designers, developers, testers and project managers. Our team of experts has the knowledge of the latest technologies as per the current industry standards and keep themselves updated about the latest trends. We as a team put focus on our clients requirements and make sure that the project is delivered with the utmost satisfaction.</p>
+									<h5>Some of the Technology we used</h5>
+									<ul>
+									<li>HTML5</li>
+										<li>CSS3</li>
+										<li>BOOTSTRAP 3/4</li>
+										<li>JQUERY</li>
+										<li>JAVASCRIPT</li>
+										<li>PHOTOSHOP</li>
+										<li>FIGMA</li>
+										<li>CORELDRAW</li>
+									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
 							</div>
@@ -331,12 +346,23 @@
 					<div class="single-service-preview">
 						<div class="row">
 							<div class="col-lg-5 col-md-6 no-pad">
-								<div class="service-preview-img"> <img src="assets/img/service/service2.png" alt=""> </div>
+								<div class="service-preview-img"> <img src="assets/img/service/service5.png" alt=""> </div>
 							</div>
 							<div class="col-lg-7 col-md-6">
 								<div class="service-preview-content">
-									<h4 class="xs-content-title">Digital Marketing</h4>
-									<p>Vcana Global understands your marketing needs and helps you succeed by bringing strategies, expertise and execution to the areas that you require the most. From workplace community to marketing performance and company's growth, we have been lucky enough to be recognized for some of the most sought-after successes in the business realm.</p>
+									<h4 class="xs-content-title">Web Development</h4>
+									<p>Vcana Global has a well equipped web development lab in place which is run by highly experienced team of designers, developers, testers and project managers. Our team of experts has the knowledge of the latest technologies as per the current industry standards and keep themselves updated about the latest trends. We as a team put focus on our clients requirements and make sure that the project is delivered with the utmost satisfaction.</p>
+									<h5>Some of the Technology we used</h5>
+									<ul>
+									<li>WORDPRESS</li>
+										<li>CODEIGNITER</li>
+										<li>SQL</li>
+										<li>SHOPIFY</li>
+										<li>JOOMLA</li>
+										<li>DRUPAL</li>
+										<li>WIX</li>
+										<li>WEEBLY</li>
+									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
 							</div>
@@ -347,12 +373,23 @@
 					<div class="single-service-preview">
 						<div class="row">
 							<div class="col-lg-5 col-md-6 no-pad">
-								<div class="service-preview-img"> <img src="assets/img/service/service3.png" alt=""> </div>
+								<div class="service-preview-img"> <img src="assets/img/service/service4.png" alt=""> </div>
 							</div>
 							<div class="col-lg-7 col-md-6">
 								<div class="service-preview-content">
-									<h4 class="xs-content-title">Mobile & App Development</h4>
-									<p>From idea to the development of application software, Vcana Global covers the mobile application development cycle, regardless of how varied or multifaceted your needs are. Our capacity to address your issues comes from our team of specialists, who have multiple years of involvement with product engineering and global app development ventures. </p>
+									<h4 class="xs-content-title">E-commerce Development</h4>
+									<p>Vcana Global give its customer an edge over others by building unique and perfect e-commerce storefront and set the ball rolling to create their online presence. With our proficiency in the leading e-commerce development platforms, we help businesses to grow their audience and increase sales.</p>
+									<h5>Some of the Technology we used</h5>
+									<ul>
+									<li>WORDPRESS</li>
+										<li>MAGENTO</li>
+										<li>OPEN CART</li>
+										<li>SHOPIFY</li>
+										<li>JOOMLA</li>
+										<li>DRUPAL</li>
+										<li>WIX</li>
+										<li>WEEBLY</li>
+									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
 							</div>
@@ -363,182 +400,132 @@
 					<div class="single-service-preview">
 						<div class="row">
 							<div class="col-lg-5 col-md-6 no-pad">
-								<div class="service-preview-img"> <img src="assets/img/service/service4.png" alt=""> </div>
+								<div class="service-preview-img"> <img src="assets/img/service/service6.png" alt=""> </div>
 							</div>
 							<div class="col-lg-7 col-md-6">
 								<div class="service-preview-content">
-									<h4 class="xs-content-title">E-commerce Development</h4>
-									<p>Vcana Global give its customer an edge over others by building unique and perfect e-commerce storefront and set the ball rolling to create their online presence. With our proficiency in the leading e-commerce development platforms, we help businesses to grow their audience and increase sales.</p>
+									<h4 class="xs-content-title">Digital Marketing</h4>
+									<p>Our Digital Marketing services include a comprehensive consultation to help identify gaps, opportunities and results in a detailed report that includes a project plan with timelines and cost analysis. Our customized plans are made up of quality services that will help you get to your goal quickly and smoothly.</p>
+									<h5>Some of the Technology we used</h5>
+									<ul>
+									<li>EMAIL MARKETING</li>
+										<li>CONTENT MARKETING</li>
+										<li>LEAD GENERATION (B2B - B2C)</li>
+										<li>SOCIAL MEDIA ADVERTISING</li>
+									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div id="tab-5" class="tab-content">
+					<div class="single-service-preview">
+						<div class="row">
+							<div class="col-lg-5 col-md-6 no-pad">
+								<div class="service-preview-img"> <img src="assets/img/service/service3.png" alt=""> </div>
+							</div>
+							<div class="col-lg-7 col-md-6">
+								<div class="service-preview-content">
+									<h4 class="xs-content-title">Mobile & App Development</h4>
+									<p>From idea to the development of application software, Vcana Global covers the mobile application development cycle, regardless of how varied or multifaceted your needs are. Our capacity to address your issues comes from our team of specialists, who have multiple years of involvement with product engineering and global app development ventures. </p>
+									<h5>Some of the Technology we used</h5>
+									<ul>
+									<li>IPHONE APPS DEVELOPMENT</li>
+										<li>ANDROID APPS DEVELOPMENT</li>
+										<li>WINDOWS APPS DEVELOPMENT</li>
+										<li>PHONEGAP APPS DEVELOPMENT</li>
+									</ul>
+									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div id="tab-6" class="tab-content">
+					<div class="single-service-preview">
+						<div class="row">
+							<div class="col-lg-5 col-md-6 no-pad">
+								<div class="service-preview-img"> <img src="assets/img/service/service7.png" alt=""> </div>
+							</div>
+							<div class="col-lg-7 col-md-6">
+								<div class="service-preview-content">
+									<h4 class="xs-content-title">Custom Software Development</h4>
+									<p>As a leading custom application development organization with multiple years of involvement in this field, Vcana Global makes exceptionally secure, scalable, and robust applications worldwide. Our bespoke customized application development service is accessible for new businesses, SMEs, and ventures from different industry verticals. Get custom-fitted applications worked by our experienced developers to counter your complicated business challenges effortlessly.</p>
+									<h5>Some of the Technology we used</h5>
+									<ul>
+									<li>CUSTOMIZED WEB DEVELOPMENT</li>
+										<li>PROGRESSIVE CUSTOM APPS</li>
+										<li>WEB PORTAL DEVELOPMENT</li>
+										<li>THIRD-PARTY INTEGRATION & CUSTOMIZATION</li>
+									</ul>
+									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</section>
 	<!-- our service start here-->
-	<!--	portfolio start here-->
-	<section class="portfolio-st-2 pt-10 pb-120">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<div class="section-title text-center">
-						<h2>Our Portfolio</h2>
-						<div class="section-border"><span></span>
-						</div>
-					</div>
-				</div>
+	<!-- counter area start  -->
+ <section id="counter-stats" >
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-3 wow fadeInDown" data-wow-delay="2s" data-wow-duration="1s">
+				<div class="stats">
+				<i class="fa fa-laptop-code"></i>
+				<div class="counting" data-count="500">500K</div>
+				<h5>Projects Done</h5>
 			</div>
-
-			<div class="row wow fadeInUp">
-				<!--MixitUp Galery-->
-				<div class="mixitup-gallery">
-					<!--Filter-->
-					<div class="filters clearfix">
-						<ul class="filter-tabs filter-btns clearfix">
-							<li class="active filter btn-style-one" data-role="button" data-filter="all"><span class="txt">All</span>
-							</li>
-							<li class="filter btn-style-one" data-role="button" data-filter=".web"><span class="txt">Web Site</span>
-							</li>
-							<li class="filter btn-style-one" data-role="button" data-filter=".logo"><span class="txt">Logo</span>
-							</li>
-						</ul>
-					</div>
-
-					<div class="filter-list row">
-						<!-- Gallery Item Two -->
-						<div class="gallery-item-two mix all web col-lg-4 col-md-6 col-sm-12">
-
-							<div class="portfolio-item mb-30">
-								<div class="portfolio-item-img p-relative"> <img src="assets/img/portfolio/p-1.jpg" alt="">
-									<div class="portfolio-hover-contnet">
-										<div class="portfolio-hover-inner text-center">
-											<h5 class="portfolio-hover-heading"> <a href="#">ACM General Construction</a> </h5>
-											<ul>
-												<li>WORDPRESS</li>
-												<li>PHP</li>
-												<li>MYSQL</li>
-												<li>JQUERY</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<!-- Gallery Item Two -->
-						<div class="gallery-item-two mix all web col-lg-4 col-md-6 col-sm-12">
-							<div class="portfolio-item mb-30">
-								<div class="portfolio-item-img p-relative"> <img src="assets/img/portfolio/p-2.jpg" alt="">
-									<div class="portfolio-hover-contnet">
-										<div class="portfolio-hover-inner text-center">
-											<h5 class="portfolio-hover-heading"> <a href="#">Colusa Medical Center’s</a> </h5>
-											<ul>
-												<li>WORDPRESS</li>
-												<li>PHP</li>
-												<li>MYSQL</li>
-												<li>JQUERY</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Gallery Item Two -->
-						<div class="gallery-item-two mix all web col-lg-4 col-md-6 col-sm-12">
-							<div class="portfolio-item mb-30">
-								<div class="portfolio-item-img p-relative"> <img src="assets/img/portfolio/p-3.jpg" alt="">
-									<div class="portfolio-hover-contnet">
-										<div class="portfolio-hover-inner text-center">
-											<h5 class="portfolio-hover-heading"> <a href="#">Bello Solar</a> </h5>
-											<ul>
-												<li>WORDPRESS</li>
-												<li>PHP</li>
-												<li>MYSQL</li>
-												<li>JQUERY</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Gallery Item Two -->
-						<div class="gallery-item-two mix all web col-lg-4 col-md-6 col-sm-12">
-							<div class="portfolio-item mb-30">
-								<div class="portfolio-item-img p-relative"> <img src="assets/img/portfolio/p-4.jpg" alt="">
-									<div class="portfolio-hover-contnet">
-										<div class="portfolio-hover-inner text-center">
-											<h5 class="portfolio-hover-heading"> <a href="#">Thurman Brown</a> </h5>
-											<ul>
-												<li>WORDPRESS</li>
-												<li>PHP</li>
-												<li>MYSQL</li>
-												<li>JQUERY</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Gallery Item Two -->
-						<div class="gallery-item-two mix all web col-lg-4 col-md-6 col-sm-12">
-							<div class="portfolio-item mb-30">
-								<div class="portfolio-item-img p-relative"> <img src="assets/img/portfolio/p-5.jpg" alt="">
-									<div class="portfolio-hover-contnet">
-										<div class="portfolio-hover-inner text-center">
-											<h5 class="portfolio-hover-heading"> <a href="#">Pioneer</a> </h5>
-											<ul>
-												<li>WORDPRESS</li>
-												<li>PHP</li>
-												<li>MYSQL</li>
-												<li>JQUERY</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Gallery Item Two -->
-						<div class="gallery-item-two mix all web col-lg-4 col-md-6 col-sm-12">
-							<div class="portfolio-item mb-30">
-								<div class="portfolio-item-img p-relative"> <img src="assets/img/portfolio/p-6.jpg" alt="">
-									<div class="portfolio-hover-contnet">
-										<div class="portfolio-hover-inner text-center">
-											<h5 class="portfolio-hover-heading"> <a href="#">Elite Interpretation</a> </h5>
-											<ul>
-												<li>WORDPRESS</li>
-												<li>PHP</li>
-												<li>MYSQL</li>
-												<li>JQUERY</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			</div>
+			<div class="col-lg-3 wow fadeInUp" data-wow-delay="2s" data-wow-duration="1s">
+				<div class="stats">
+				<i class="fa fa-users" aria-hidden="true"></i>
+				<div class="counting" data-count="280">280K</div>
+				<h5>Happy Clients</h5>
 			</div>
 		</div>
-	</section>
-	<!-- portfolio area end -->
+			<div class="col-lg-3 wow fadeInDown" data-wow-delay="2s" data-wow-duration="1s">
+					<div class="stats">
+				<i class="fa fa-user-headset"></i>
+				<div class="counting" data-count="24">24/7</div>
+				<h5>Support Available</h5>
+			</div>
+			</div>
+			<div class="col-lg-3 wow fadeInUp" data-wow-delay="2s" data-wow-duration="1s">
+					<div class="stats">
+				<i class="fa fa-user-clock"></i>
+				<div class="counting" data-count="30">30</div>
+				<h5>Hours Worked</h5>
+			</div>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+        <!-- counter area end -->
+
 	<!-- our client section start here-->
 	<section class="our_client">
 		<!--<div class="background_overlay_client"></div>-->
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5 d-flex align-items-stretch">
-					<div class="client_dtl">
+			<!--	<div class="col-lg-5 d-flex align-items-stretch">
+					
+				</div>-->
+				<div class="col-lg-12">
+					
+					<div class="client_list">
 						<h3>Our Client</h3>
 						<h2>We work with 30+ Clients</h2>
 						<p>Here, you can find a selection of the many client organisations we already work closely alongside.</p>
-					</div>
-				</div>
-				<div class="col-lg-7">
-					<div class="client_list">
 						<div class="customer-logos slider">
 							<div class="slide"><img src="assets/img/brand/brand1.png" alt="">
 							</div>
@@ -553,8 +540,7 @@
 							<div class="slide"><img src="assets/img/brand/brand6.png" alt="">
 							</div>
 						</div>
-						<p>The best and most productive relationships are synergistic and goal-oriented, and a long-term relationship has the value add of deep-rooted industry and company knowledge and relationships.</p>
-						<p>Our clients needs always come first and we’ll always go the extra mile to ensure we don't just satisfy them, we 'wow' them!</p>
+						
 					</div>
 				</div>
 			</div>
@@ -860,6 +846,32 @@
 	<?php include 'include/footer.php' ?>
 	<!-- JS here -->
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!--<script>
+	$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
+	</script>-->
 	<script src="assets/js/swiper-bundle.js"></script>
 	<script src="assets/js/isotope.pkgd.min.js"></script>
 	<script src="assets/js/jquery.meanmenu.min.js"></script>

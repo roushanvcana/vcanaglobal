@@ -60,11 +60,12 @@
          <li><a href="#" class="">About</a></li>
          <li class="menu-item-has-children"><a href="service.html">Our Service</a>
           <ul class="sub-menu">
-           <li><a href="#">Web Design & Development</a></li>
+           <li><a href="#">Web Design</a></li>
+					 <li><a href="#">Web Development</a></li>	
            <li><a href="#">Ecommerce development</a></li>
-           <li><a href="#">Digital Marketing</a></li>
            <li><a href="#">Mobile App Development</a></li>
-           <li><a href="#">Custom App Development</a></li>
+           <li><a href="#">Custom Software Development</a></li>
+						<li><a href="#">Digital Marketing</a></li>
            <li><a href="#">Outsourcing Service</a></li>
           </ul>
          </li>
