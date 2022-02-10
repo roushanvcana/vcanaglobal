@@ -472,31 +472,71 @@
 	<!-- our service start here-->
 	<!-- counter area start  -->
  <section id="counter-stats" >
-	<div class="container">
+	 <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="counter">
+                <div class="counter-icon">
+                    <i class="fa fa-laptop-code"></i>
+                </div>
+                <span class="counter-value">500K</span>
+                <h3>Projects Done</h3>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="counter purple">
+                <div class="counter-icon">
+                    <i class="fa fa-users"></i>
+                </div>
+                <span class="counter-value">280K</span>
+                <h3>Happy Clients</h3>
+            </div>
+        </div>
+			<div class="col-md-3 col-sm-6">
+            <div class="counter blue">
+                <div class="counter-icon">
+                    <i class="fa fa-user-headset"></i>
+                </div>
+                <span class="counter-value">24</span>
+                <h3>Hours Support</h3>
+            </div>
+        </div>
+			<div class="col-md-3 col-sm-6">
+            <div class="counter green">
+                <div class="counter-icon">
+                    <i class="fa fa-user-clock"></i>
+                </div>
+                <span class="counter-value">60</span>
+                <h3>Hours Worked</h3>
+            </div>
+        </div>
+    </div>
+</div>
+	<!--<div class="container">
 		<div class="row">
 
-			<div class="col-lg-3 wow fadeInDown" data-wow-delay="2s" data-wow-duration="1s">
+			<div class="col-lg-3 wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
 				<div class="stats">
 				<i class="fa fa-laptop-code"></i>
 				<div class="counting" data-count="500">500K</div>
 				<h5>Projects Done</h5>
 			</div>
 			</div>
-			<div class="col-lg-3 wow fadeInUp" data-wow-delay="2s" data-wow-duration="1s">
+			<div class="col-lg-3 wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
 				<div class="stats">
 				<i class="fa fa-users" aria-hidden="true"></i>
 				<div class="counting" data-count="280">280K</div>
 				<h5>Happy Clients</h5>
 			</div>
 		</div>
-			<div class="col-lg-3 wow fadeInDown" data-wow-delay="2s" data-wow-duration="1s">
+			<div class="col-lg-3 wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
 					<div class="stats">
 				<i class="fa fa-user-headset"></i>
 				<div class="counting" data-count="24">24/7</div>
 				<h5>Support Available</h5>
 			</div>
 			</div>
-			<div class="col-lg-3 wow fadeInUp" data-wow-delay="2s" data-wow-duration="1s">
+			<div class="col-lg-3 wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
 					<div class="stats">
 				<i class="fa fa-user-clock"></i>
 				<div class="counting" data-count="30">30</div>
@@ -504,8 +544,8 @@
 			</div>
 			</div>
 		</div>
-		<!-- end row -->
-	</div>
+	
+	</div>-->
 	<!-- end container -->
 
 </section>
@@ -846,6 +886,21 @@
 	<?php include 'include/footer.php' ?>
 	<!-- JS here -->
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('.counter-value').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 3500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+	</script>
 	<!--<script>
 	$('.counting').each(function() {
   var $this = $(this),
