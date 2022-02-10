@@ -123,113 +123,113 @@
 	}
 
 	// brand activation
-	if (jQuery(".brand-active").length > 0) {
-		let brand = new Swiper(".brand-active", {
-			slidesPerView: 1,
-			spaceBetween: 30,
-			// direction: 'vertical',
-			loop: true,
-			autoplay: {
-				delay: 2000,
-			},
+	//if (jQuery(".brand-active").length > 0) {
+//		let brand = new Swiper(".brand-active", {
+//			slidesPerView: 1,
+//			spaceBetween: 30,
+//			// direction: 'vertical',
+//			loop: true,
+//			autoplay: {
+//				delay: 2000,
+//			},
+//
+//			breakpoints: {
+//				500: {
+//					slidesPerView: 2,
+//				},
+//				768: {
+//					slidesPerView: 3,
+//				},
+//				992: {
+//					slidesPerView: 4,
+//				},
+//				1200: {
+//					slidesPerView: 6,
+//				},
+//			},
+//		});
+//	}
 
-			breakpoints: {
-				500: {
-					slidesPerView: 2,
-				},
-				768: {
-					slidesPerView: 3,
-				},
-				992: {
-					slidesPerView: 4,
-				},
-				1200: {
-					slidesPerView: 6,
-				},
-			},
-		});
-	}
-
-	// portfolio activation
-	if (jQuery(".portfolio-active").length > 0) {
-		let portfolio = new Swiper(".portfolio-active", {
-			slidesPerView: 1,
-			spaceBetween: 30,
-			// direction: 'vertical',
-			loop: true,
-			autoplay: {
-				delay: 5000,
-			},
-			// Responsive breakpoints
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 30,
-				},
-				1400: {
-					slidesPerView: 3,
-					spaceBetween: 30,
-				},
-			},
-			// If we need pagination
-			pagination: {
-				el: ".portfolio-swiper-pagination",
-				clickable: true,
-			},
-
-			// Navigation arrows
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-
-			// And if we need scrollbar
-			scrollbar: {
-				el: ".swiper-scrollbar",
-			},
-		});
-	}
+	//// portfolio activation
+//	if (jQuery(".portfolio-active").length > 0) {
+//		let portfolio = new Swiper(".portfolio-active", {
+//			slidesPerView: 1,
+//			spaceBetween: 30,
+//			// direction: 'vertical',
+//			loop: true,
+//			autoplay: {
+//				delay: 5000,
+//			},
+//			// Responsive breakpoints
+//			breakpoints: {
+//				768: {
+//					slidesPerView: 2,
+//					spaceBetween: 30,
+//				},
+//				1400: {
+//					slidesPerView: 3,
+//					spaceBetween: 30,
+//				},
+//			},
+//			// If we need pagination
+//			pagination: {
+//				el: ".portfolio-swiper-pagination",
+//				clickable: true,
+//			},
+//
+//			// Navigation arrows
+//			navigation: {
+//				nextEl: ".swiper-button-next",
+//				prevEl: ".swiper-button-prev",
+//			},
+//
+//			// And if we need scrollbar
+//			scrollbar: {
+//				el: ".swiper-scrollbar",
+//			},
+//		});
+//	}
 
 	// portfolio-slide activation
-	if (jQuery(".portfolio-slide").length > 0) {
-		let portfolio2 = new Swiper(".portfolio-slide", {
-			slidesPerView: 1,
-			spaceBetween: 30,
-			// direction: 'vertical',
-			loop: false,
-			autoplay: {
-				delay: 5000,
-			},
-
-			// If we need pagination
-			pagination: {
-				el: ".portfolio2-swiper-pagination",
-				clickable: true,
-			},
-
-			// Navigation arrows
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-
-			// And if we need scrollbar
-			scrollbar: {
-				el: ".swiper-scrollbar",
-			},
-			// Responsive breakpoints
-			breakpoints: {
-				778: {
-					slidesPerView: 2,
-					spaceBetween: 30,
-				},
-				992: {
-					slidesPerView: 3,
-					spaceBetween: 30,
-				},
-			},
-		});
-	}
+	//if (jQuery(".portfolio-slide").length > 0) {
+//		let portfolio2 = new Swiper(".portfolio-slide", {
+//			slidesPerView: 1,
+//			spaceBetween: 30,
+//			// direction: 'vertical',
+//			loop: false,
+//			autoplay: {
+//				delay: 5000,
+//			},
+//
+//			// If we need pagination
+//			pagination: {
+//				el: ".portfolio2-swiper-pagination",
+//				clickable: true,
+//			},
+//
+//			// Navigation arrows
+//			navigation: {
+//				nextEl: ".swiper-button-next",
+//				prevEl: ".swiper-button-prev",
+//			},
+//
+//			// And if we need scrollbar
+//			scrollbar: {
+//				el: ".swiper-scrollbar",
+//			},
+//			// Responsive breakpoints
+//			breakpoints: {
+//				778: {
+//					slidesPerView: 2,
+//					spaceBetween: 30,
+//				},
+//				992: {
+//					slidesPerView: 3,
+//					spaceBetween: 30,
+//				},
+//			},
+//		});
+//	}
 
 	// testimonial activation
 	if (jQuery(".testimonial-active").length > 0) {
@@ -323,17 +323,17 @@
 		// options
 	});
 	// filter items on button click
-	$(".portfolio-button").on("click", "button", function () {
-		var filterValue = $(this).attr("data-filter");
-		$grid.isotope({ filter: filterValue });
-	});
-
-	//for menu active class
-	$(".portfolio-button button").on("click", function (event) {
-		$(this).siblings(".active").removeClass("active");
-		$(this).addClass("active");
-		event.preventDefault();
-	});
+	//$(".portfolio-button").on("click", "button", function () {
+//		var filterValue = $(this).attr("data-filter");
+//		$grid.isotope({ filter: filterValue });
+//	});
+//
+//	//for menu active class
+//	$(".portfolio-button button").on("click", function (event) {
+//		$(this).siblings(".active").removeClass("active");
+//		$(this).addClass("active");
+//		event.preventDefault();
+//	});
 
 	// back to top
 	$("#scrollToTop").on("click", function () {
