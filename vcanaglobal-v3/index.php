@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<met a http-equiv="cache-control" content="no-cache">
@@ -8,8 +9,8 @@
 				<meta http-equiv="x-ua-compatible" content="ie=edge">
 				<title>IT Consulting, B2B Digital Marketing Company, Branding Solutions</title>
 				<meta name="description" content="">
-				<meta http-equiv="cache-control" content="no-cache"/>
-				<meta http-equiv="Pragma" content="no-cache"/>
+				<meta http-equiv="cache-control" content="no-cache" />
+				<meta http-equiv="Pragma" content="no-cache" />
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="icon" type="image/png" href="assets/img/favicon.png">
 				<!-- CSS here -->
@@ -125,105 +126,107 @@
 			<div class="container-fluid">
 				<ol class="ps-timeline">
 					<li>
-						<div class="img-handler-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
+						<!-- class="icon animate fadeInLeft" data-wow-delay="1.4s" -->
+						<div class="img-handler-top animate fadeInLeft" data-wow-delay="3s" data-wow-duration="2s">
 							<div class="img_box">
 								<img src="assets/img/process/icon7.png" alt="icon">
 							</div>
 
 						</div>
-						<div class="ps-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Understand</h3>
-							<p>Requirement Understanding Is Of High Importance. At Vcana Global, We Keep Special Focus On Understanding The Needs Of Our Clients And Their Business.</p>
+						<div class="ps-bot animate fadeInDown" data-wow-delay="4s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="4s" data-wow-duration="2s">Understand</h3>
+							<p class="animate fadeInDown" data-wow-delay="4s" data-wow-duration="2s">Requirement Understanding Is Of High Importance. At Vcana Global, We Keep Special Focus On Understanding The Needs Of Our Clients And Their Business.</p>
 						</div>
-						<span class="ps-sp-top wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">01</span>
+						<span class="ps-sp-top wow zoomIn" data-wow-delay="2s" data-wow-duration="2.4s">01</span>
 					</li>
 					<li>
-						<div class="img-handler-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-bot wow fadeInDown" data-wow-delay="6s" data-wow-duration="2.8s">
 							<div class="img_box">
 								<img src="assets/img/process/icon5.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Process</h3>
-							<p>Our Team Of Experts Does A Complete Research And Brainstorming To Come Up With Innovative And Smart Solutions.</p>
+						<div class="ps-top wow fadeInUp" data-wow-delay="7s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="7s" data-wow-duration="2s">Process</h3>
+							<p class="animate fadeInDown" data-wow-delay="7s" data-wow-duration="2s">Our Team Of Experts Does A Complete Research And Brainstorming To Come Up With Innovative And Smart Solutions.</p>
 						</div>
-						<span class="ps-sp-bot wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">02</span>
+						<span class="ps-sp-bot wow zoomIn" data-wow-delay="5s" data-wow-duration="1s">02</span>
 					</li>
 					<li>
-						<div class="img-handler-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-top wow fadeInUp" data-wow-delay="9s" data-wow-duration="2s">
 							<div class="img_box">
 								<img src="assets/img/process/icon8.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Design</h3>
-							<p>Our Team Of Designers Build Unique & Tailor Made Innovative Web Designs, Specific To Your Business Needs.</p>
+						<div class="ps-bot wow fadeInDown" data-wow-delay="10s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="10s" data-wow-duration="2s">Design</h3>
+							<p class="animate fadeInDown" data-wow-delay="10s" data-wow-duration="2s">Our Team Of Designers Build Unique & Tailor Made Innovative Web Designs, Specific To Your Business Needs.</p>
 						</div>
-						<span class="ps-sp-top wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">03</span>
+						<span class="ps-sp-top wow zoomIn" data-wow-delay="8s" data-wow-duration="1s">03</span>
 					</li>
 					<li>
-						<div class="img-handler-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-bot wow fadeInDown" data-wow-delay="12s" data-wow-duration="2s">
 							<div class="img_box">
 								<img src="assets/img/process/icon6.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Build</h3>
-							<p>Our Battalion Of Coders Then Starts Putting All The Pieces Together To Create A Masterpiece For You.</p>
+						<div class="ps-top wow fadeInUp" data-wow-delay="13s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="13s" data-wow-duration="2s">Build</h3>
+							<p class="animate fadeInDown" data-wow-delay="13s" data-wow-duration="2s">Our Battalion Of Coders Then Starts Putting All The Pieces Together To Create A Masterpiece For You.</p>
 						</div>
-						<span class="ps-sp-bot wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">04</span>
+						<span class="ps-sp-bot wow zoomIn" data-wow-delay="11s" data-wow-duration="1s">04</span>
 					</li>
 					<li>
-						<div class="img-handler-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-top wow fadeInUp" data-wow-delay="15s" data-wow-duration="2.8s">
 							<div class="img_box">
 								<img src="assets/img/process/icon2.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Write</h3>
-							<p>We Put Great Emphasis On The Website Content And Use Industry Best Practices And Tools To Create The Content For Your Website.</p>
+						<div class="ps-bot wow fadeInDown" data-wow-delay="16s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="16s" data-wow-duration="2s">Write</h3>
+							<p class="animate fadeInDown" data-wow-delay="16s" data-wow-duration="2s">We Put Great Emphasis On The Website Content And Use Industry Best Practices And Tools To Create The Content For Your Website.</p>
 						</div>
-						<span class="ps-sp-top wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">05</span>
+						<span class="ps-sp-top wow zoomIn" data-wow-delay="14s" data-wow-duration="1s">05</span>
 					</li>
 					<li>
-						<div class="img-handler-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-bot wow fadeInDown" data-wow-delay="18s" data-wow-duration="2s">
 							<div class="img_box">
 								<img src="assets/img/process/icon4.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Quality Check</h3>
-							<p>Your Direct Input Is Critical. We Send The Draft For Revision To Make Sure That Website Is Bug Free And Represents Your Brand In An Awesome Way.</p>
+						<div class="ps-top wow fadeInUp" data-wow-delay="19s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="19s" data-wow-duration="2s">Quality Check</h3>
+							<p class="animate fadeInDown" data-wow-delay="19s" data-wow-duration="2s">Your Direct Input Is Critical. We Send The Draft For Revision To Make Sure That Website Is Bug Free And Represents Your Brand In An Awesome Way.</p>
 						</div>
-						<span class="ps-sp-bot wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">06</span>
+						<span class="ps-sp-bot wow zoomIn" data-wow-delay="17s" data-wow-duration="1s">06</span>
 					</li>
 					<li>
-						<div class="img-handler-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-top wow fadeInUp" data-wow-delay="21s" data-wow-duration="2s">
 							<div class="img_box">
 								<img src="assets/img/process/icon3.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Launch</h3>
-							<p>Upon Final Approval, We Finalize The Project, Make It Ready For Live Environment And Present It To Your Audience, Throughout The World.</p>
+						<div class="ps-bot wow fadeInDown" data-wow-delay="22s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="22s" data-wow-duration="2s">Launch</h3>
+							<p class="animate fadeInDown" data-wow-delay="22s" data-wow-duration="2s">Upon Final Approval, We Finalize The Project, Make It Ready For Live Environment And Present It To Your Audience, Throughout The World.</p>
 						</div>
-						<span class="ps-sp-top wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">07</span>
+						<span class="ps-sp-top wow zoomIn" data-wow-delay="20s" data-wow-duration="1s">07</span>
 					</li>
 					<li>
-						<div class="img-handler-bot wow fadeInDown" data-wow-delay="2s" data-wow-duration="2.8s">
+						<div class="img-handler-bot wow fadeInDown" data-wow-delay="24s" data-wow-duration="2s">
 							<div class="img_box">
 								<img src="assets/img/process/icon1.png" alt="icon">
 							</div>
 						</div>
-						<div class="ps-top wow fadeInUp" data-wow-delay="2s" data-wow-duration="2.8s">
-							<h3>Maintain</h3>
-							<p>What Else? We Take Our After Sales Service Very Seriously By Giving 3 Months Free Maintenance On Every Project We Deliver.</p>
+						<div class="ps-top wow fadeInUp" data-wow-delay="25s" data-wow-duration="2s">
+							<h3 class="animate fadeInDown" data-wow-delay="25s" data-wow-duration="2s">Maintain</h3>
+							<p class="animate fadeInDown" data-wow-delay="25s" data-wow-duration="2s">What Else? We Take Our After Sales Service Very Seriously By Giving 3 Months Free Maintenance On Every Project We Deliver.</p>
 						</div>
-						<span class="ps-sp-bot wow zoomIn" data-wow-delay="1s" data-wow-duration="1s">08</span>
+						<span class="ps-sp-bot wow zoomIn" data-wow-delay="23s" data-wow-duration="1s">08</span>
 					</li>
 				</ol>
 			</div>
 		</section>
+
 	</section>
 	<!--	our process end here-->
 	<!--About section start here-->
@@ -249,6 +252,8 @@
 		</div>
 	</section>
 	<!--About section end here-->
+
+
 	<!-- core and value start here-->
 	<section class="core_value">
 		<div class="container">
@@ -327,8 +332,8 @@
 									<p>Vcana Global has a well equipped web development lab in place which is run by highly experienced team of designers, developers, testers and project managers. Our team of experts has the knowledge of the latest technologies as per the current industry standards and keep themselves updated about the latest trends. We as a team put focus on our clients requirements and make sure that the project is delivered with the utmost satisfaction.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-										      
-									<li>UI/UX</li>
+
+										<li>UI/UX</li>
 										<li>Wireframes</li>
 										<li>HTML</li>
 										<li>CSS</li>
@@ -354,7 +359,7 @@
 									<p>Vcana Global has a well equipped web development lab in place which is run by highly experienced team of designers, developers, testers and project managers. Our team of experts has the knowledge of the latest technologies as per the current industry standards and keep themselves updated about the latest trends. We as a team put focus on our clients requirements and make sure that the project is delivered with the utmost satisfaction.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>WORDPRESS</li>
+										<li>WORDPRESS</li>
 										<li>JOOMLA</li>
 										<li>PHP</li>
 										<li>DRUPAL</li>
@@ -380,11 +385,11 @@
 									<p>Vcana Global give its customer an edge over others by building unique and perfect e-commerce storefront and set the ball rolling to create their online presence. With our proficiency in the leading e-commerce development platforms, we help businesses to grow their audience and increase sales.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>SHOPIFY</li>
+										<li>SHOPIFY</li>
 										<li>MAGENTO</li>
 										<li>WOO COMMERCE</li>
 										<li>OPEN CART</li>
-										
+
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -404,7 +409,7 @@
 									<p>Our Digital Marketing services include a comprehensive consultation to help identify gaps, opportunities and results in a detailed report that includes a project plan with timelines and cost analysis. Our customized plans are made up of quality services that will help you get to your goal quickly and smoothly.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-									<li>SEO</li>
+										<li>SEO</li>
 										<li>SMM</li>
 										<li>PPC</li>
 										<li>Google AdWords</li>
@@ -430,8 +435,11 @@
 									<p>From idea to the development of application software, Vcana Global covers the mobile application development cycle, regardless of how varied or multifaceted your needs are. Our capacity to address your issues comes from our team of specialists, who have multiple years of involvement with product engineering and global app development ventures. </p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-										<li>JAVA</li> <li>Swift Objective-C</li> <li>React Native</li> <li>Iconic Cross-Platform</li>
-									
+										<li>JAVA</li>
+										<li>Swift Objective-C</li>
+										<li>React Native</li>
+										<li>Iconic Cross-Platform</li>
+
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -439,7 +447,7 @@
 						</div>
 					</div>
 				</div>
-			<div id="tab-6" class="tab-content">
+				<div id="tab-6" class="tab-content">
 					<div class="single-service-preview">
 						<div class="row">
 							<div class="col-lg-5 col-md-6 no-pad">
@@ -451,7 +459,14 @@
 									<p>As a leading custom application development organization with multiple years of involvement in this field, Vcana Global makes exceptionally secure, scalable, and robust applications worldwide. Our bespoke customized application development service is accessible for new businesses, SMEs, and ventures from different industry verticals. Get custom-fitted applications worked by our experienced developers to counter your complicated business challenges effortlessly.</p>
 									<h5>Some of the Technology we used</h5>
 									<ul>
-										<li>CorePHP</li> <li>Laravel</li> <li>Zend</li> <li>Codeigniter</li> <li>Node.JS</li> <li>Express JS</li> <li>React JS</li> <li>Angular JS</li>
+										<li>CorePHP</li>
+										<li>Laravel</li>
+										<li>Zend</li>
+										<li>Codeigniter</li>
+										<li>Node.JS</li>
+										<li>Express JS</li>
+										<li>React JS</li>
+										<li>Angular JS</li>
 									</ul>
 									<div class="btn-wraper"> <a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
 								</div>
@@ -459,54 +474,54 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
 	<!-- our service start here-->
 	<!-- counter area start  -->
- <section id="counter-stats" >
-	 <div class="container">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="counter">
-                <div class="counter-icon">
-                    <i class="fa fa-laptop-code"></i>
-                </div>
-                <span class="counter-value">500</span>
-                <h3>Projects Done</h3>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="counter purple">
-                <div class="counter-icon">
-                    <i class="fa fa-users"></i>
-                </div>
-                <span class="counter-value">280K</span>
-                <h3>Happy Clients</h3>
-            </div>
-        </div>
-			<div class="col-md-3 col-sm-6">
-            <div class="counter blue">
-                <div class="counter-icon">
-                    <i class="fa fa-user-headset"></i>
-                </div>
-                <span class="counter-value">24</span>
-                <h3>Hours Support</h3>
-            </div>
-        </div>
-			<div class="col-md-3 col-sm-6">
-            <div class="counter green">
-                <div class="counter-icon">
-                    <i class="fa fa-user-clock"></i>
-                </div>
-                <span class="counter-value">60</span>
-                <h3>Hours Worked</h3>
-            </div>
-        </div>
-    </div>
-</div>
-	<!--<div class="container">
+	<section id="counter-stats">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="counter">
+						<div class="counter-icon">
+							<i class="fa fa-laptop-code"></i>
+						</div>
+						<span class="counter-value">500</span>
+						<h3>Projects Done</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="counter purple">
+						<div class="counter-icon">
+							<i class="fa fa-users"></i>
+						</div>
+						<span class="counter-value">280K</span>
+						<h3>Happy Clients</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="counter blue">
+						<div class="counter-icon">
+							<i class="fa fa-user-headset"></i>
+						</div>
+						<span class="counter-value">24</span>
+						<h3>Hours Support</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="counter green">
+						<div class="counter-icon">
+							<i class="fa fa-user-clock"></i>
+						</div>
+						<span class="counter-value">60</span>
+						<h3>Hours Worked</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="container">
 		<div class="row">
 
 			<div class="col-lg-3 wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
@@ -540,22 +555,22 @@
 		</div>
 	
 	</div>-->
-	<!-- end container -->
+		<!-- end container -->
 
-</section>
+	</section>
 
-        <!-- counter area end -->
+	<!-- counter area end -->
 
 	<!-- our client section start here-->
 	<section class="our_client">
 		<!--<div class="background_overlay_client"></div>-->
 		<div class="container">
 			<div class="row">
-			<!--	<div class="col-lg-5 d-flex align-items-stretch">
+				<!--	<div class="col-lg-5 d-flex align-items-stretch">
 					
 				</div>-->
 				<div class="col-lg-12">
-					
+
 					<div class="client_list">
 						<h3>Our Client</h3>
 						<h2>We work with 30+ Clients</h2>
@@ -574,7 +589,7 @@
 							<div class="slide"><img src="assets/img/brand/brand6.png" alt="">
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -596,7 +611,8 @@
 							<h2>VCANA GLOBAL</h2>
 							<h5>One stop shop for all your technology needs</h5>
 						</div>
-						<a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Get in Touch</span> </a> </div>
+						<a href="#" class="theme-btn btn-style-two read-btn btn-style-three"><span class="txt">Get in Touch</span> </a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -718,19 +734,19 @@
 							<div class="col-md-6 col-lg-6">
 								<div class="form-group">
 									<label class="control-label">Name</label>
-									<input type="text" class="form-control"/>
+									<input type="text" class="form-control" />
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-6">
 								<div class="form-group">
 									<label class="control-label">Email</label>
-									<input type="text" class="form-control"/>
+									<input type="text" class="form-control" />
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-6">
 								<div class="form-group">
 									<label class="control-label">Mobile No.</label>
-									<input class="form-control" type="text"/>
+									<input class="form-control" type="text" />
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-6">
@@ -764,6 +780,7 @@
 			</div>
 	</section>
 	<!-- form details section end here	-->
+
 	<!-- blog area start  -->
 	<section class="blog-area blog-area-2 pt-120 pb-150" id="blog">
 		<div class="container">
@@ -789,7 +806,8 @@
 							</ul>
 							<h4><a href="#">Why your business needs a...</a></h4>
 							<p class="d_none max-lines">Consumer behavior has changed a lot over time with the evolving technologies in this digital era. Today, the number of </p>
-							<a href="#" class="read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
+							<a href="#" class="read-btn btn-style-three"><span class="txt">Read More</span></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -802,7 +820,8 @@
 							</ul>
 							<h4><a href="#">Top Data Visualization Tools For...</a></h4>
 							<p class="d_none max-lines">There has been an enormous growth in data generation and consumption by business organizations these days. Sometimes, data sets</p>
-							<a href="#" class="read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
+							<a href="#" class="read-btn btn-style-three"><span class="txt">Read More</span></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -815,7 +834,8 @@
 							</ul>
 							<h4><a href="#">Best Customized Mobile UX Practices</a></h4>
 							<p class="d_none max-lines">Mobile phones have become an integral part of our lives. According to Comscore, mobile usage overtook that of the desktop</p>
-							<a href="#" class="read-btn btn-style-three"><span class="txt">Read More</span></a> </div>
+							<a href="#" class="read-btn btn-style-three"><span class="txt">Read More</span></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -857,8 +877,8 @@
 						<div class="location">
 							<ul>
 								<li><i class="fas fa-map-marker-alt"></i> <span>Times Square, C-196A, Ind.
-        				Area,<br>
-        				Phase-8B, SAS Nagar, Mohali (PB) - 160055</span>
+										Area,<br>
+										Phase-8B, SAS Nagar, Mohali (PB) - 160055</span>
 								</li>
 							</ul>
 						</div>
@@ -881,19 +901,19 @@
 	<!-- JS here -->
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script>
-	$(document).ready(function(){
-    $('.counter-value').each(function(){
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        },{
-            duration: 3500,
-            easing: 'swing',
-            step: function (now){
-                $(this).text(Math.ceil(now));
-            }
-        });
-    });
-});
+		$(document).ready(function() {
+			$('.counter-value').each(function() {
+				$(this).prop('Counter', 0).animate({
+					Counter: $(this).text()
+				}, {
+					duration: 3500,
+					easing: 'swing',
+					step: function(now) {
+						$(this).text(Math.ceil(now));
+					}
+				});
+			});
+		});
 	</script>
 	<!--<script>
 	$('.counting').each(function() {
@@ -929,38 +949,38 @@
 	<script src="assets/js/main.js"></script>
 
 	<script>
-		$( document ).ready( function () {
-			$( ".max-lines" ).each( function ( i ) {
-				var len = $( this ).text().trim().length;
-				if ( len > 100 ) {
-					$( this ).text( $( this ).text().substr( 0, 80 ) + '...' );
+		$(document).ready(function() {
+			$(".max-lines").each(function(i) {
+				var len = $(this).text().trim().length;
+				if (len > 100) {
+					$(this).text($(this).text().substr(0, 80) + '...');
 				}
-			} );
-		} );
+			});
+		});
 	</script>
 	<script type="text/javascript">
-		$( '.sec1' ).mousemove( function ( a ) {
-			var mouseX = ( a.pageX * -1 / 10 );
-			var mouseY = ( a.pageY * -1 / 10 );
-			$( this ).css( 'background-position', mouseX + 'px ' + mouseY + 'px' );
-			$( this ).css( 'transition', 0.5 );
-		} )
+		$('.sec1').mousemove(function(a) {
+			var mouseX = (a.pageX * -1 / 10);
+			var mouseY = (a.pageY * -1 / 10);
+			$(this).css('background-position', mouseX + 'px ' + mouseY + 'px');
+			$(this).css('transition', 0.5);
+		})
 	</script>
 	<script>
-		$( 'ul.tabs li' ).click( function () {
-			var tab_id = $( this ).attr( 'data-tab' );
+		$('ul.tabs li').click(function() {
+			var tab_id = $(this).attr('data-tab');
 
-			$( 'ul.tabs li' ).removeClass( 'current' );
-			$( '.tab-content' ).removeClass( 'current' );
+			$('ul.tabs li').removeClass('current');
+			$('.tab-content').removeClass('current');
 
-			$( this ).addClass( 'current' );
-			$( "#" + tab_id ).addClass( 'current' );
-		} );
+			$(this).addClass('current');
+			$("#" + tab_id).addClass('current');
+		});
 	</script>
 	<script src="assets/js/slick.js"></script>
 	<script>
-		$( document ).ready( function () {
-			$( '.customer-logos' ).slick( {
+		$(document).ready(function() {
+			$('.customer-logos').slick({
 				slidesToShow: 4,
 				slidesToScroll: 1,
 				autoplay: true,
@@ -968,7 +988,7 @@
 				arrows: false,
 				dots: false,
 				pauseOnHover: false,
-				responsive: [ {
+				responsive: [{
 					breakpoint: 768,
 					settings: {
 						slidesToShow: 4
@@ -978,14 +998,14 @@
 					settings: {
 						slidesToShow: 1
 					}
-				} ]
-			} );
-		} );
+				}]
+			});
+		});
 	</script>
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script>
-		$( '#owl-carousel' ).owlCarousel( {
+		$('#owl-carousel').owlCarousel({
 			loop: true,
 			margin: 10,
 			dots: false,
@@ -1005,7 +1025,19 @@
 					items: 1
 				}
 			}
-		} )
+		})
+	</script>
+
+	<script>
+		var wow = new WOW({
+			boxClass: 'animate',
+			animateClass: 'animated',
+			offset: 90,
+			mobile: false,
+		});
+
+		wow.init();
 	</script>
 </body>
+
 </html>

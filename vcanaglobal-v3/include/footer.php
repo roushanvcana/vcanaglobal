@@ -1,22 +1,22 @@
 <!-- footer area start  -->
 <footer>
 	<div class="footer_social">
-	<nav class="left_social">
-          <ul>
-              <li><a href="https://www.facebook.com/Vcana-Global-LLP-105597571118536/?modal=admin_todo_tour%20" target="_blank">Facebook <i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="https://twitter.com/GlobalVcana" target="_blank">Twitter <i class="fab fa-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/vcanaglobal" target="_blank">Instagram <i class="fab fa-instagram"></i></a></li>
-          </ul>
-      </nav>
-		
+		<nav class="left_social">
+			<ul>
+				<li><a href="https://www.facebook.com/Vcana-Global-LLP-105597571118536/?modal=admin_todo_tour%20" target="_blank">Facebook <i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://twitter.com/GlobalVcana" target="_blank">Twitter <i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/vcanaglobal" target="_blank">Instagram <i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</nav>
+
 		<nav class="right_social">
-          <ul>
-              <li><a href="#" target="_blank"><i class="fab fa-youtube"></i> Youtube </a></li>
-              <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
-              <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
-          </ul>
-      </nav>
-		</div>
+			<ul>
+				<li><a href="#" target="_blank"><i class="fab fa-youtube"></i> Youtube </a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+			</ul>
+		</nav>
+	</div>
 	<section class="footer-area">
 		<div class="footer_background_overlay"></div>
 		<div class="container">
@@ -104,6 +104,5 @@
 		</div>
 	</div>
 </footer>
- <!-- footer area end -->
+<!-- footer area end -->
 <!--Scroll to top-->
-
